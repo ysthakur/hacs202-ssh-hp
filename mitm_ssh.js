@@ -28,14 +28,14 @@ module.exports = {
         cacheSize : 5000,
         barrier: {
             normalDist: {
-                enabled: true,
+                enabled: false,
                 mean: 6,
                 standardDeviation: 1,
             },
             fixed: {
-                enabled: false,
+                enabled: true,
                 upperLimit: true,
-                attempts: 3,
+                attempts: 8,
             },
         }
 
